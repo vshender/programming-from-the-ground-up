@@ -12,3 +12,8 @@ Programming examples from the book ["Programming from the Ground Up"](https://sa
 
 - [power.s](04.all-about-functions/power.s) -- a program that illustrates how functions work by solving $2^3 + 5^2$.
 - [factorial.s](04.all-about-functions/factorial.s) -- a program that calculates factorial using a recursive function.
+
+
+## 5. Dealing with Files
+
+- [toupper.s](05.dealing-with-files/toupper.s) -- a program that converts an input file to an output file with all letters converted to uppercase.
