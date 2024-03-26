@@ -58,3 +58,9 @@ Notes:
   ```
   $ LD_LIBRARY_PATH=. ./write-records.exe
   ```
+
+
+## 9. Intermediate Memory Topics
+
+- [alloc.s](09.intermediate-memory-topics/alloc.s) -- a simple memory manager.
+- [read-records.s](09.intermediate-memory-topics/read-records.s) -- a program that reads records from the file and uses a simple memory manager to allocate memory.
