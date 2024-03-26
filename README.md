@@ -36,3 +36,25 @@ Programming examples from the book ["Programming from the Ground Up"](https://sa
 
 - [error-exit.s](07.developing-robust-programs/error-exit.s) -- a function that writes the error message to the standard error output and exits.
 - [add-year.s](07.developing-robust-programs/add-year.s) -- a program that reads records from the input file, increments the age of each record and writes them to the output file.
+
+
+## 8. Sharing Functions with Code Libraries
+
+- [helloworld-nolib.s](08.sharing-functions-with-code-libraries/helloworld-nolib.s) -- a program that writes the message "hello world" and exits.
+- [helloworld-lib.s](08.sharing-functions-with-code-libraries/helloworld-lib.s) -- a program that writes the message "hello world" and exits using the standard C library.
+- [printf-example.s](08.sharing-functions-with-code-libraries/printf-example.s) -- a program that demonstrates the use of the `printf` function.
+- [write-record.s](08.sharing-functions-with-code-libraries/write-record.s), [read-record.s](08.sharing-functions-with-code-libraries/read-record.s) -- functions that write and read records, which are used to create a shared library for working with records.
+- [write-records.s](08.sharing-functions-with-code-libraries/write-records.s) -- a program that writes some sample records to the file and uses the shared library for working with records.
+
+Notes:
+
+- On x86-64 Linux in order to be able to link 32-bit programs with the `c` library install the `libc6-dev-i386` package:
+
+  ```
+  $ sudo apt install libc6-dev-i386
+  ```
+- In order to run the `write-records.exe` program, execute the following command:
+
+  ```
+  $ LD_LIBRARY_PATH=. ./write-records.exe
+  ```
