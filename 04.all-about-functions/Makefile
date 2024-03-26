@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-ALL := power.exe factorial.exe
+ALL := power.exe factorial.exe maximum.exe
 
 all: ${ALL}
 
