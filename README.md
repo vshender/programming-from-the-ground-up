@@ -70,3 +70,10 @@ Notes:
 
 - [integer-to-string.s](10.counting-like-a-computer/integer-to-string.s) -- a function that converts an integer number to a ecimal string representation.
 - [conversion-program.s](10.counting-like-a-computer/conversion-program.s) -- a program that converts an integer number to a decimal string representation and prints it.
+
+
+## 11. High-Level Languages
+
+- [hello-world.c](11.high-level-languages/hello-world.c) -- hello world program in C.
+- [hello-world.pl](11.high-level-languages/hello-world.pl) -- hello world program in Perl.
+- [hello-world.py](11.high-level-languages/hello-world.py) -- hello world program in Python.
