@@ -30,3 +30,9 @@ Programming examples from the book ["Programming from the Ground Up"](https://sa
 - [write-newline.s](06.reading-and-writing-simple-records/write-newline.s) -- a function that writes a newline to the file descriptor.
 - [read-records.s](06.reading-and-writing-simple-records/read-records.s) -- a program that reads records from the file.
 - [add-year.s](06.reading-and-writing-simple-records/add-year.s) -- a program that reads records from the input file, increments the age of each record and writes them to the output file.
+
+
+## 7. Developing Robust Programs
+
+- [error-exit.s](07.developing-robust-programs/error-exit.s) -- a function that writes the error message to the standard error output and exits.
+- [add-year.s](07.developing-robust-programs/add-year.s) -- a program that reads records from the input file, increments the age of each record and writes them to the output file.
