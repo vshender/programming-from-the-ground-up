@@ -64,3 +64,9 @@ Notes:
 
 - [alloc.s](09.intermediate-memory-topics/alloc.s) -- a simple memory manager.
 - [read-records.s](09.intermediate-memory-topics/read-records.s) -- a program that reads records from the file and uses a simple memory manager to allocate memory.
+
+
+## 10. Counting Like a Computer
+
+- [integer-to-string.s](10.counting-like-a-computer/integer-to-string.s) -- a function that converts an integer number to a ecimal string representation.
+- [conversion-program.s](10.counting-like-a-computer/conversion-program.s) -- a program that converts an integer number to a decimal string representation and prints it.
